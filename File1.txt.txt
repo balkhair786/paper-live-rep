@@ -1,2 +1,31 @@
-This is my first Paper-live repo
-Added third line for my reference
+git important commands from PAPER LIVE
+
+
+mkdir paperlive-gitrepo-1
+cd paperlive-gitrepo-1
+<create file file1.txt>
+git init 		- to initialize an empty git repository     
+git status              - (untracked file)   - red color
+git add file1           - Add file to staging area of git - green color
+git commit -m "Initial check-in" - To commit the file to git
+git status - nothing is pending
+git log - to check the history of commits (track the changes)
+git --> show all the commands in git
+
+# make a new change in file1.txt
+
+git status - modified file1.txt
+git add file1.txt
+git commit -m "Added second line"
+git status
+git log
+
+git show - show the difference between last two commits
+
+
+# steps to push code to GitHub
+# create GitHub account
+# Create new GitHub repo
+
+git remote add origin https://github.com/puneetbhatia77/paperlive-gitrepo-1.git          # Please use your own GitHub repo link
+git push -u origin master
